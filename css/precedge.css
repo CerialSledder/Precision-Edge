@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url("../precedge images/Slides/background3.jpg") fixed;
+    background-size: cover;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#myCarousel {
+    background-image: url("../precedge images/carouselbackgroundblur.png");
+
+}
+
+h1 .colortwo {color:darkred}
+
+h1 .colorone {color:white}
+
+h2 .colortwo {color:darkred}
+
+h3 .colortwo {color:darkred}
+
+h4 .colortwo {color:white}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.page-header {
+    color: #FFFFFF;
+    outline: 1px solid black;
+   -webkit-text-stroke: 1px #000;
+}
+
+.navbar-brand>img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    height: 50px;
+    width:auto;
+    margin: 0 auto;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a{
+    color: white !important;
+}
+.dropdown-menu a:hover{
+    color: black !important;
+}
+.navbar-nav > li > .dropdown-menu { background-color: black;}
+
+/* Dropdown testing area */
+
+/* Sample photos center */
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    width:92.5%;
+    bottom: .3rem;
+    position: absolute;
+    background:#000;
+    background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* Home Page Carousel */
+
+
+
+header.carousel {
+
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
